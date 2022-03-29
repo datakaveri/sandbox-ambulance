@@ -1,0 +1,57 @@
+{
+      "accessPolicy": "OPEN",
+      "dataSample": {
+      },
+      "itemStatus": "ACTIVE",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:EmergencyVehicle"
+      ],
+      "provider": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc",
+      "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+      ],
+      "location": {
+        "address": "Bangalore",
+        "type": "Place"
+      },
+      "@context": "https://voc.iudx.org.in/",
+      "tags": [
+        "ambulance",
+        "motor cycle ambulance",
+        "bike ambulance",
+        "emergency vehicle",
+        "license plate",
+        "sos",
+        "on call",
+        "emergency service",
+        "patient",
+        "hospital",
+        "on duty",
+        "help",
+        "siren",
+        "emergency transit",
+        "make way",
+        "green corridor"
+      ],
+      "name": "bangalore-ambulance",
+      "description": " Real-time positions of ambulances (both motorcycle and full-fledged) can be used to derive interesting insights into a city such as \n 1. Accident prone zones \n 2. Ambulance congestion patterns. In this sandbox, we illustrate the usage of this datasource and highlight some interesting insights that can be derived from it. \n\n <br/>  <img src=\"https://raw.githubusercontent.com/datakaveri/sandbox-ambulance/main/docs/ambulance.jpg\" alt=\"GVK Ambulance\" height=\"200\" width=\"300\"/> <img src=\"https://raw.githubusercontent.com/datakaveri/sandbox-ambulance/main/docs/analytic1.png\" alt=\"Analytic1\" height=\"200\" width=\"300\"/>",
+      "resourceServer": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/cat-sandbox.iudx.org.in",
+      "resourceType": "MESSAGESTREAM",
+      "label": "Bangalore Ambulance Tracking",
+      "dataDescriptor": {
+      },
+      "repositoryURL": "https://github.com/datakaveri/sandbox-ambulance.git",
+      "referenceResources": [
+        {
+          "id": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32/rs.iudx.org.in/bengaluru-emergency-vehicles",
+          "name": "Ambulance Live",
+          "description": "Realt time positions of ambulances in Bangalore",
+          "additionalInfoURL": "https://bengaluru.catalogue.iudx.org.in/dataset/datakaveri.org-fb0924bef803e220e0d0bc8ceaf0a1f999442f32-rs.iudx.org.in-bengaluru-emergency-vehicles"
+
+        }
+      ],
+      "itemCreatedAt": "2021-07-05T12:05:26+0530",
+      "instance": "sandbox"
+    }
